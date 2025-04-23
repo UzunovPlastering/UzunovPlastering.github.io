@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>УЗУНОВ ПЛАСТЕРИНГ</title>
+	<link rel="icon" type="image/x-icon" href="icon/icon1.png">
+	
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+			<img src = "icon/icon1.png"/>
+                <h1>Узунов Пластеринг ЕООД</h1>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Начало</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#gallery">Галерия</a></li>
+                <li><a href="#videos">Видеа</a></li>
+				<!--
+                <li><a href="#testimonials">Мнения</a></li>
+				-->
+                <li><a href="#contact" class="btn-contact">Контакт</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Вашият доверен партньор в довършителните строителни дейности</h1>
+            <h2>Гипсокартон • Мазилки • Бои • Шпакловки • Довършителни дейности</h2>
+            <p>С над 20 години опит в сферата на строителството и довършителните работи, ние предлагаме качество, прецизност и дълготрайност, на които можете да разчитате.</p>
+            <a href="#contact" class="btn-primary">Запитване</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Нашите услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Гипсокартон</h3>
+                    <p>Предлагаме професионален монтаж на гипсокартон за вътрешни стени и тавани. Гарантираме прецизна изработка, съобразена с изискванията на всеки клиент - жилищни или търговски обекти</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brush"></i>
+						
+						
+                    </div>
+                    <h3>Мазилки</h3>
+                    <p>Извършваме професионално полагане на вътрешни и външни мазилки с материали от водещата марка Baumit – гаранция за качество, устойчивост и отличен външен вид.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>Бои</h3>
+                    <p>Извършваме боядисване на стени с прецизност и професионализъм – от подготвителните работи до последния щрих.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Шпакловки</h3>
+                    <p>Гладките и здрави стени започват с качествена шпакловка. Работим с доказани материали и технологии, за да гарантираме перфектна основа за боядисване или облицовка. Без пукнатини, без компромиси – само отлично подготвени повърхности.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Какво правим</h2>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">Всичко</button>
+                <button class="filter-btn" data-filter="drywall">Гипсокартон</button>
+                <button class="filter-btn" data-filter="plaster">Мазилки</button>
+                <button class="filter-btn" data-filter="painting">Бои</button>
+                <button class="filter-btn" data-filter="finishing">Шпакловки</button>
+            </div>
+            <div class="gallery-grid">
+                <!-- Replace with your actual project images -->
+				
+                <div class="gallery-item drywall">
+                    <img src="images/drywall-1.jpg" alt="Drywall Installation">
+                    <div class="gallery-overlay">
+                        <h3>Жилищен Гипсокартон</h3>
+                        <p>Цялостен монтаж на гипсокартон</p>
+                    </div>
+                </div>
+				
+                <div class="gallery-item plaster">
+                    <img src="images/plaster-1.jpg" alt="Plaster Wall">
+                    <div class="gallery-overlay">
+                        <h3>Външна Мазилка</h3>
+                        <p>Полагане на външна мазилка</p>
+                    </div>
+                </div>
+				
+                <div class="gallery-item painting">
+                    <img src="images/painting-1.jpg" alt="Wall Painting">
+                    <div class="gallery-overlay">
+                        <h3>Гипсокартон</h3>
+                        <p>Поставяне на гипсокартон и подготовка за шпакловка</p>
+                    </div>
+                </div>
+				
+                <div class="gallery-item finishing">
+                    <img src="images/finishing-1.jpg" alt="Finishing Work">
+                    <div class="gallery-overlay">
+                        <h3>Шпакловка</h3>
+                        <p>Професионална машина за пръскане на шпакловка</p>
+                    </div>
+                </div>
+				
+                <div class="gallery-item drywall">
+                    <img src="images/drywall-2.jpg" alt="Drywall Repair">
+                    <div class="gallery-overlay">
+                        <h3>Гипсокартон</h3>
+                        <p>Подготовка за полагане на шпакловка</p>
+                    </div>
+                </div>
+				<div class="gallery-item drywall">
+                    <img src="images/drywall-3.jpg" alt="Drywall Repair">
+                    <div class="gallery-overlay">
+                        <h3>Гипсокартон</h3>
+                        <p>Подготовка за полагане на шпакловка</p>
+                    </div>
+                </div>
+				<div class="gallery-item drywall">
+                    <img src="images/painting-5.jpg" alt="Drywall Repair">
+                    <div class="gallery-overlay">
+                        <h3>Гипсокартон</h3>
+                        <p>Подготовка за полагане на шпакловка</p>
+                    </div>
+                </div>
+				<div class="gallery-item drywall">
+                    <img src="images/finishing-2.jpg" alt="Drywall Repair">
+                    <div class="gallery-overlay">
+                        <h3>Гипсокартон</h3>
+                        <p>Подготовка за полагане на шпакловка</p>
+                    </div>
+                </div>
+				
+                <div class="gallery-item painting">
+                    <img src="images/painting-2.jpg" alt="Exterior Painting">
+                    <div class="gallery-overlay">
+                        <h3>Шпакловка</h3>
+                        <p>Професионални инструменти за обработка на шпакловка</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2 class="section-title">Как го правим</h2>
+            <div class="video-grid">
+                <!-- Replace with your actual videos -->
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/ixmI06NBYn4?si=9ibiuXdBEEAaS0RF" title="Машинна мазилка" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Полагане на мазилка</h3>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://youtube.com/embed/6mQ-E3NTSic?si=YfTryZU7gU7Of8Zq" title="Шкурене на стена" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Полагане на мазилка</h3>
+                </div>
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/89ld0Am8CXY?si=DMU2e2yKWJIFLABY" title="Машинна мазилка" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Изглаждане на стените след шпакловка</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Testimonials Section -->
+	<!--
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Какво мислят клиентите за нас</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>„Много съм доволен от работата на екипа – точни, бързи и изключително професионални. Всичко беше изпълнено според уговорката, без забавяне.“</p>
+                        <div class="client-info">
+                            <h4>Иван Георгиев</h4>
+                            <p>собственик на къща</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>„Страхотно отношение и внимание към детайла! Стените изглеждат перфектно, а боята е нанесена с невероятна прецизност. Препоръчвам с две ръце!“</p>
+                        <div class="client-info">
+                            <h4>Мария Николова</h4>
+                            <p>Собственик на бизнес</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>„Майстори, на които можеш да се довериш. Работят с качествени материали и им личи, че си разбират от работата.“</p>
+                        <div class="client-info">
+                            <h4>Даниел Тодоров</h4>
+                            <p>Собственик на завод</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Свържете се </h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Обадете ни се</h3>
+                        <a href>+359888149214</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Поща</h3>
+                        <p>krasimiruzunov77@hotmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Локация</h3>
+                        <p>ул. Захари Зограф, гр. Кърджали 6600</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Работно време</h3>
+                        <p>Пн - Пт: 8:00 - 18:00<br>Събота 9:00 - 15:00</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="quote-form">
+                        <div class="form-group">
+                            <label for="name">Име</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">е-поща</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон за връзка</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">От какво се нуждаете</label>
+                            <select id="service" name="service" required>
+                                <option value="">Моля изберете</option>
+                                <option value="drywall">Гипсокартон</option>
+                                <option value="plaster">Мазилки</option>
+                                <option value="painting">Боядисване</option>
+                                <option value="finishing">Довършителни дейности</option>
+                                <option value="multiple">Други услуги</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Подробности</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Заявете</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Узунов Пластеринг ЕООД</h2>
+                    <p>Вашият доверен партньор в довършителните строителни дейности</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Бързи връзки</h3>
+                    <ul>
+                        <li><a href="#home">Начало</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#gallery">Галерия</a></li>
+                        <li><a href="#videos">Видеа</a></li>
+                        <li><a href="#testimonials">Мнения</a></li>
+                        <li><a href="#contact">Връзка с нас</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Намерете ни</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61575703645405"><i class="fab fa-facebook-f"></i></a>
+                      <!--  <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a> -->
+                        <a href="https://www.youtube.com/@UzunovPlasteringEOOD"><i class="fab fa-youtube"></i></a>
+                      <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Узунов Пластеринг ЕООД. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
